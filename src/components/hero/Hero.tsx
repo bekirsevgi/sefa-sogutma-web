@@ -11,7 +11,7 @@ export default function Hero() {
 
       <Container>
 
-        <div className="grid items-center gap-20 py-20 xl:grid-cols-[48%_52%]">
+        <div className="grid items-center gap-20 py-20 pb-32 xl:grid-cols-[48%_52%]">
 
           <HeroContent />
 

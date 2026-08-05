@@ -21,12 +21,12 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="bg-blue-700 py-20 text-white">
+    <section className="bg-blue-700 py-24 text-white">
       <Container>
         <div className="grid gap-10 text-center md:grid-cols-2 xl:grid-cols-4">
           {stats.map((item) => (
             <div key={item.label}>
-              <h3 className="text-6xl font-extrabold">
+              <h3 className="text-7xl font-black">
                 {item.value}
               </h3>
 

@@ -16,11 +16,11 @@ export default function Contact() {
           light
         />
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-2">
+        <div className="mt-20 grid items-start gap-16 lg:grid-cols-2">
 
           <div className="space-y-6">
 
-            <div className="rounded-3xl bg-slate-800 p-8">
+            <div className="rounded-3xl bg-slate-800 p-10">
               <p className="text-sm uppercase tracking-[0.2em] text-blue-400">
                 TELEFON
               </p>
@@ -33,7 +33,7 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="rounded-3xl bg-slate-800 p-8">
+            <div className="rounded-3xl bg-slate-800 p-10">
               <p className="text-sm uppercase tracking-[0.2em] text-green-400">
                 WHATSAPP
               </p>
@@ -47,7 +47,7 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="rounded-3xl bg-slate-800 p-8">
+            <div className="rounded-3xl bg-slate-800 p-10">
               <p className="text-sm uppercase tracking-[0.2em] text-orange-400">
                 KONUM
               </p>
@@ -73,7 +73,7 @@ export default function Contact() {
     allowFullScreen
     loading="lazy"
     referrerPolicy="strict-origin-when-cross-origin"
-    className="min-h-[500px] w-full"
+    className="h-[560px] w-full"
   />
 
 </div>

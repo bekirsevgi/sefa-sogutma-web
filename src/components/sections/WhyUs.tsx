@@ -42,11 +42,11 @@ export default function WhyUs() {
 />
         
 
-        <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-20 grid gap-10 md:grid-cols-2 xl:grid-cols-4">
           {features.map((item) => (
             <div
               key={item.title}
-              className="group rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group rounded-3xl border border-slate-200 bg-white p-10 shadow-sm"
             >
               <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-3xl transition group-hover:scale-110">
                 {item.icon}
